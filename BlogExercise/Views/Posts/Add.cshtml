@@ -1,0 +1,24 @@
+﻿@using BlogExercise.Common.Entities;
+@model BlogPost
+
+@{
+    ViewBag.Title = "Add";
+}
+
+<article>
+    <h2>Add new Post</h2>
+
+    @using (Html.BeginForm()) { 
+    
+        @Html.TextBoxFor(post => post.Title, new { 
+            placeholder = "Enter title here"
+        })
+
+        @Html.TextAreaFor(post => post.Content, new
+        {
+            placeholder = "Enter post content here"
+        })
+    
+        <input type="submit" value="Lundagin mo Beybeh!" />
+    }
+</article>

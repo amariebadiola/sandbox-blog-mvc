@@ -1,0 +1,150 @@
+﻿html,
+body {
+    width : 100%;
+    font-family : 'Droid Serif', serif;
+    font-size : 18px;
+    color : #353535;
+    background : #fcfcfc;
+}
+
+body {
+    width : 960px;
+    margin : 0 auto;
+}
+
+h1 {
+    padding-bottom : 36px;
+
+    font-family : 'Rock Salt', cursive;
+    font-size : 54pt;
+    font-weight : normal;
+    line-height : 60pt;
+    text-align : center;
+
+    border-bottom : 1px solid #ccc;
+}
+
+h1 small {
+    display : block;
+    font-size : .5em;
+    color : #999;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family : 'Bitter', serif;
+}
+
+h2 {    
+    font-weight : normal;
+    font-size : 30pt;
+
+    position : relative;
+}
+
+article {
+    width: 720px;
+    margin: 0 auto;
+}
+
+article header {
+    position: relative;
+}
+
+article header time {    
+    display : block;
+    position : absolute;
+    left : -120px;
+    top : 0;
+    width : 90px;
+    height : 90px;    
+    padding-top : 10px;
+    background : #353535;
+
+    border-radius : 50px;
+
+    text-align : center;
+    overflow-y : hidden;
+    box-sizing: border-box;
+    line-height : 1;
+}
+
+article header time span {
+    display : block;
+    color : #fcfcfc;
+    font-size : 12px;
+}
+
+article header time span:nth-child(2) {
+    font-size : 48px;    
+}
+
+p {
+    line-height : 2.2;
+}
+
+p:first-child {
+    font-size : 1.2em;
+    line-height : 1.6;
+}
+
+form {
+    padding : 20px 0 20px;
+    border-top : 1px solid #ccc;
+    border-bottom : 1px solid #ccc;
+}
+
+form > * {
+    display : block;      
+}
+
+input[type=text],
+textarea {
+    font-size : 30px;
+    font-family : 'Droid Serif', serif;
+    border : 1px solid rgba(0,0,0,0);
+
+    box-sizing : border-box;
+    width : 100%;
+    padding : .4em 0;
+    line-height : 1;
+
+    outline : none;
+
+    color : #666;;
+
+    background : transparent;
+}
+
+input[type=text] {
+    font-size : 36px;
+}
+
+textarea {
+    font-size : 24px;
+    height : 30em;
+}
+
+input[type=submit] {
+    font-size : 24px;
+    background : #353535;
+    margin-top : 30px;
+    padding : .4em .6em;
+    padding-right : 2.8em;
+    border : 0;
+    color : #fcfcfc;
+    cursor : pointer;
+
+    -webkit-transition : all .3s linear;
+    -moz-transition : all .3s linear;
+    -ms-transition : all .3s linear;
+    -o-transition : all .3s linear;
+    transition : all .3s linear;
+}
+
+input[type=submit]:hover {
+    background : rgba(50, 100, 50, 1);
+}
